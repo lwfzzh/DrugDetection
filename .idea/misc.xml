@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/andrio/DrugDetection/app/src/main/res/drawable-v24/et_bg.xml" value="0.52109375" />
+        <entry key="..\:/andrio/DrugDetection/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.24010416666666667" />
+        <entry key="..\:/andrio/DrugDetection/app/src/main/res/drawable/button_frame_shape.xml" value="0.571875" />
+        <entry key="..\:/andrio/DrugDetection/app/src/main/res/drawable/create_user_radius.xml" value="0.571875" />
+        <entry key="..\:/andrio/DrugDetection/app/src/main/res/drawable/et_bg.xml" value="0.3515625" />
+        <entry key="..\:/andrio/DrugDetection/app/src/main/res/drawable/ic_launcher_background.xml" value="0.24010416666666667" />
+        <entry key="..\:/andrio/DrugDetection/app/src/main/res/drawable/line_et_normal.xml" value="0.3515625" />
+        <entry key="..\:/andrio/DrugDetection/app/src/main/res/drawable/textview_back.xml" value="0.5734375" />
+        <entry key="..\:/andrio/DrugDetection/app/src/main/res/drawable/textviewback.xml" value="0.36102564102564105" />
+        <entry key="..\:/andrio/DrugDetection/app/src/main/res/layout-land/activity_main.xml" value="0.21428571428571427" />
+        <entry key="..\:/andrio/DrugDetection/app/src/main/res/layout-sw600dp/activity_main.xml" value="0.2956204379562044" />
+        <entry key="..\:/andrio/DrugDetection/app/src/main/res/layout/activity_main.xml" value="0.5" />
+        <entry key="..\:/andrio/DrugDetection/app/src/main/res/layout/create_user.xml" value="0.5" />
+        <entry key="..\:/andrio/DrugDetection/app/src/main/res/layout/edit_personal_information.xml" value="0.4035532994923858" />
+      </map>
+    </option>
+  </component>
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="jbr-11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
