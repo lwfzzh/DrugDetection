@@ -9,22 +9,22 @@
             android:layout_height="match_parent"
             android:orientation="vertical"
             tools:ignore="MissingConstraints"
-            android:background="#3A3838">
+            android:background="@color/background">
         <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="80dp"
-                android:background="#252525">
+                android:layout_height="60dp"
+                android:background="@color/top">
             <TextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:text="用户创建"
-                    android:textColor="#DFDCDC"
+                    android:textColor="#D5D5D6"
                     android:textSize="24dp"
                     android:gravity="center"/>
         </LinearLayout>
         <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="500dp"
+                android:layout_height="520dp"
                 android:orientation="vertical">
             <LinearLayout
                     android:layout_width="340dp"
@@ -40,9 +40,9 @@
                         android:layout_height="match_parent"
                         android:textSize="14dp"
                         android:hint="请输入用户名"
-                        android:textColorHint="#605D5D"
+                        android:textColorHint="@color/font"
                         android:textColor="#DFDCDC"
-                        android:background="#353434"/>
+                        android:background="@color/text"/>
             </LinearLayout>
             <LinearLayout
                     android:layout_width="340dp"
@@ -58,9 +58,9 @@
                         android:layout_height="match_parent"
                         android:textSize="14dp"
                         android:hint="请输入账号"
-                        android:textColorHint="#605D5D"
+                        android:textColorHint="@color/font"
                         android:textColor="#DFDCDC"
-                        android:background="#353434" />
+                        android:background="@color/text" />
             </LinearLayout>
             <LinearLayout
                     android:layout_width="340dp"
@@ -93,9 +93,9 @@
                         android:layout_height="match_parent"
                         android:textSize="14dp"
                         android:hint="请输入密码"
-                        android:textColorHint="#605D5D"
+                        android:textColorHint="@color/font"
                         android:textColor="#DFDCDC"
-                        android:background="#353434"
+                        android:background="@color/text"
                         android:inputType="textPassword"/>
             </LinearLayout>
             <LinearLayout
@@ -112,9 +112,9 @@
                         android:layout_height="match_parent"
                         android:textSize="14dp"
                         android:hint="请再一次输入密码"
-                        android:textColorHint="#605D5D"
-                        android:textColor="#DFDCDC"
-                        android:background="#353434"
+                        android:textColorHint="@color/font"
+                        android:textColor="#7D848A"
+                        android:background="@color/text"
                         android:inputType="textPassword"/>
             </LinearLayout>
         </LinearLayout>
@@ -127,7 +127,7 @@
                     android:background="@drawable/button_frame_shape"
                     android:layout_marginLeft="10dp"
                     android:text="确认"
-                    android:textColor="#DFDCDC"
+                    android:textColor="#C5C5C8"
                     android:textSize="20dp" />
         </LinearLayout>
     </LinearLayout>

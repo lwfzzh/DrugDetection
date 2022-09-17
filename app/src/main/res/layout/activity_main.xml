@@ -29,7 +29,7 @@
 						android:textSize="24dp"
 						android:textColor="#DFDCDC"
 						android:gravity="center"
-						/>
+				/>
 			</LinearLayout>
 			<LinearLayout
 					android:layout_width="match_parent"
@@ -115,13 +115,13 @@
 					android:layout_height="40dp"
 					android:layout_marginTop="70dp"
 					android:gravity="center"
-					>
+			>
 				<Button
 						android:layout_width="280dp"
 						android:layout_height="match_parent"
 						android:background="@drawable/button_frame_shape"
 						android:text="登录"
-						android:textColor="#DFDCDC"
+						android:textColor="#C5C5C8"
 						android:textSize="20dp"/>
 			</LinearLayout>
 		</LinearLayout>

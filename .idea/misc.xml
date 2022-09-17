@@ -6,17 +6,23 @@
         <entry key="..\:/andrio/DrugDetection/app/src/main/res/drawable-v24/et_bg.xml" value="0.52109375" />
         <entry key="..\:/andrio/DrugDetection/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.24010416666666667" />
         <entry key="..\:/andrio/DrugDetection/app/src/main/res/drawable/button_frame_shape.xml" value="0.571875" />
+        <entry key="..\:/andrio/DrugDetection/app/src/main/res/drawable/button_grey.xml" value="0.2652777777777778" />
         <entry key="..\:/andrio/DrugDetection/app/src/main/res/drawable/create_user_radius.xml" value="0.571875" />
         <entry key="..\:/andrio/DrugDetection/app/src/main/res/drawable/et_bg.xml" value="0.3515625" />
         <entry key="..\:/andrio/DrugDetection/app/src/main/res/drawable/ic_launcher_background.xml" value="0.24010416666666667" />
+        <entry key="..\:/andrio/DrugDetection/app/src/main/res/drawable/id_card.xml" value="0.33055555555555555" />
         <entry key="..\:/andrio/DrugDetection/app/src/main/res/drawable/line_et_normal.xml" value="0.3515625" />
         <entry key="..\:/andrio/DrugDetection/app/src/main/res/drawable/textview_back.xml" value="0.5734375" />
         <entry key="..\:/andrio/DrugDetection/app/src/main/res/drawable/textviewback.xml" value="0.36102564102564105" />
         <entry key="..\:/andrio/DrugDetection/app/src/main/res/layout-land/activity_main.xml" value="0.21428571428571427" />
         <entry key="..\:/andrio/DrugDetection/app/src/main/res/layout-sw600dp/activity_main.xml" value="0.2956204379562044" />
         <entry key="..\:/andrio/DrugDetection/app/src/main/res/layout/activity_main.xml" value="0.5" />
-        <entry key="..\:/andrio/DrugDetection/app/src/main/res/layout/create_user.xml" value="0.5" />
+        <entry key="..\:/andrio/DrugDetection/app/src/main/res/layout/create_user.xml" value="0.4027777777777778" />
         <entry key="..\:/andrio/DrugDetection/app/src/main/res/layout/edit_personal_information.xml" value="0.4035532994923858" />
+        <entry key="..\:/andrio/DrugDetection/app/src/main/res/layout/select_item.xml" value="0.33" />
+        <entry key="..\:/andrio/DrugDetection/app/src/main/res/layout/test.xml" value="0.54609375" />
+        <entry key="..\:/andrio/DrugDetection/app/src/main/res/layout/test_preview.xml" value="0.4434250764525994" />
+        <entry key="..\:/andrio/DrugDetection/app/src/main/res/layout/test_results.xml" value="0.5" />
       </map>
     </option>
   </component>
