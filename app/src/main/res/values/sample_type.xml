@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="sampleType">
+        <item>毛发</item>
+        <item>111</item>
+    </string-array>
+</resources>
