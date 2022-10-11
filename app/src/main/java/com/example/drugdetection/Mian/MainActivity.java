@@ -1,12 +1,13 @@
-package com.example.drugdetection;
+package com.example.drugdetection.Mian;
 
 import android.app.Activity;
 import android.os.Bundle;
+import com.example.drugdetection.R;
 
 public class MainActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.create_user);
+        setContentView(R.layout.test_results);
     }
 }

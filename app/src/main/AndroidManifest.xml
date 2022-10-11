@@ -50,7 +50,7 @@
 			tools:ignore="ProtectedPermissions"/>
 
     <application
-			android:name=".MainApplication"
+			android:name=".Mian.MainApplication"
 			android:allowBackup="true"
 			android:icon="@mipmap/ic_launcher"
 			android:label="@string/app_name"
@@ -61,9 +61,9 @@
 			tools:ignore="Instantiatable">
 
         <activity
-				android:name=".MainActivity"
+				android:name=".Mian.MainActivity"
 				android:configChanges="keyboard|keyboardHidden|orientation|screenSize|locale|screenLayout|mcc|mnc"
-				android:screenOrientation="landscape"
+				android:screenOrientation="portrait"
 				android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
 				android:windowSoftInputMode="adjustPan">
             <intent-filter>
@@ -74,13 +74,13 @@
         </activity>
 
         <!--开机自启-->
-<!--        <receiver android:name=".BootBroadcastReceiver">-->
-<!--            <intent-filter>-->
-<!--                <action android:name="android.intent.action.BOOT_COMPLETED"/>-->
+        <receiver android:name=".Mian.BootBroadcastReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
 
-<!--                <category android:name="android.intent.category.HOME"/>-->
-<!--            </intent-filter>-->
-<!--        </receiver>-->
+                <category android:name="android.intent.category.HOME"/>
+            </intent-filter>
+        </receiver>
     </application>
 
 </manifest>

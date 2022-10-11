@@ -194,7 +194,7 @@
                                 android:orientation="vertical">
                             <LinearLayout
                                     android:layout_width="match_parent"
-                                    android:layout_height="30dp"
+                                    android:layout_height="28dp"
                                     android:orientation="horizontal">
                                 <TextView
                                         android:layout_width="50dp"
@@ -211,7 +211,7 @@
                             </LinearLayout>
                             <LinearLayout
                                     android:layout_width="match_parent"
-                                    android:layout_height="30dp"
+                                    android:layout_height="28dp"
                                     android:orientation="horizontal">
                                 <TextView
                                         android:layout_width="50dp"
@@ -240,7 +240,7 @@
                             </LinearLayout>
                             <LinearLayout
                                     android:layout_width="match_parent"
-                                    android:layout_height="30dp"
+                                    android:layout_height="28dp"
                                     android:orientation="horizontal">
                                 <TextView
                                         android:layout_width="50dp"
@@ -257,7 +257,7 @@
                             </LinearLayout>
                             <LinearLayout
                                     android:layout_width="match_parent"
-                                    android:layout_height="30dp"
+                                    android:layout_height="36dp"
                                     android:orientation="horizontal">
                                 <TextView
                                         android:layout_width="50dp"
@@ -269,7 +269,7 @@
                                         android:layout_width="match_parent"
                                         android:layout_height="match_parent"
                                         android:textColor="#294B6B"
-                                        android:text="广东省广州市黄浦区萝岗街道"
+                                        android:text="广东省广州市黄埔区萝岗街萝岗社区"
                                         android:textSize="14dp"/>
                             </LinearLayout>
                             <LinearLayout
@@ -351,7 +351,7 @@
                                 <TextView
                                         android:layout_width="113dp"
                                         android:layout_height="match_parent"
-                                        android:text="<1.00"
+                                        android:text="1.00"
                                         android:textSize="20dp"
                                         android:textColor="#D5D5D6"
                                         android:gravity="center"/>

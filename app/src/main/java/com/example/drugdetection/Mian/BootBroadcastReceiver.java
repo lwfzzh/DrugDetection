@@ -1,4 +1,4 @@
-package com.example.drugdetection;
+package com.example.drugdetection.Mian;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
