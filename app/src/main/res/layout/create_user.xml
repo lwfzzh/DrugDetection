@@ -8,18 +8,25 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical"
-            tools:ignore="MissingConstraints"
-            android:background="@color/background">
+            tools:ignore="MissingConstraints">
         <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="60dp"
+                android:layout_height="40dp"
                 android:background="@color/top">
+            <Button
+                    android:id="@+id/createUserReturnButton"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginTop="-5dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/return_button"/>
             <TextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:text="用户创建"
-                    android:textColor="#D5D5D6"
+                    android:textColor="#f5f5f5"
                     android:textSize="24dp"
+                    android:layout_marginLeft="-30dp"
                     android:gravity="center"/>
         </LinearLayout>
         <LinearLayout
@@ -30,91 +37,96 @@
                     android:layout_width="340dp"
                     android:layout_height="47dp"
                     android:layout_marginTop="10dp"
-                    android:background="@drawable/create_user_radius"
                     android:layout_marginLeft="10dp">
                 <ImageView
-                        android:layout_width="40dp"
-                        android:layout_height="match_parent" />
+                        android:layout_marginTop="5dp"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:background="@drawable/user_name"/>
                 <EditText
+                        android:id="@+id/enterUserName"
                         android:layout_width="280dp"
                         android:layout_height="match_parent"
                         android:textSize="14dp"
                         android:hint="请输入用户名"
-                        android:textColorHint="@color/font"
-                        android:textColor="#DFDCDC"
-                        android:background="@color/text"/>
+                        android:textColorHint="@color/black"
+                        android:textColor="#DFDCDC"/>
             </LinearLayout>
             <LinearLayout
                     android:layout_width="340dp"
                     android:layout_height="47dp"
                     android:layout_marginTop="10dp"
-                    android:background="@drawable/create_user_radius"
                     android:layout_marginLeft="10dp">
                 <ImageView
-                        android:layout_width="40dp"
-                        android:layout_height="match_parent" />
+                        android:layout_marginTop="5dp"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:background="@drawable/account"/>
                 <EditText
+                        android:id="@+id/enterAccount"
                         android:layout_width="280dp"
                         android:layout_height="match_parent"
                         android:textSize="14dp"
                         android:hint="请输入账号"
-                        android:textColorHint="@color/font"
-                        android:textColor="#DFDCDC"
-                        android:background="@color/text" />
+                        android:textColorHint="@color/black"
+                        android:textColor="#DFDCDC" />
             </LinearLayout>
             <LinearLayout
                     android:layout_width="340dp"
                     android:layout_height="47dp"
                     android:layout_marginTop="10dp"
-                    android:background="@drawable/create_user_radius"
                     android:layout_marginLeft="10dp">
                 <ImageView
-                        android:layout_width="40dp"
-                        android:layout_height="match_parent" />
+                        android:layout_marginTop="5dp"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:background="@drawable/input_admin"/>
                 <Spinner
                         android:layout_width="280dp"
                         android:layout_height="match_parent"
                         android:entries="@array/type"
-                        android:popupBackground="#353434"
-                        android:background="#353434"
-                        />
+                        android:popupBackground="#ffffff"
+                        android:background="#ffffff"
+                        android:id="@+id/userType"/>
             </LinearLayout>
             <LinearLayout
                     android:layout_width="340dp"
                     android:layout_height="47dp"
                     android:layout_marginTop="10dp"
-                    android:background="@drawable/create_user_radius"
                     android:layout_marginLeft="10dp">
                 <ImageView
-                        android:layout_width="40dp"
-                        android:layout_height="match_parent" />
+                        android:layout_marginTop="5dp"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:background="@drawable/password2"/>
                 <EditText
+                        android:id="@+id/enterPassword"
                         android:layout_width="280dp"
                         android:layout_height="match_parent"
                         android:textSize="14dp"
                         android:hint="请输入密码"
-                        android:textColorHint="@color/font"
-                        android:textColor="#DFDCDC"
-                        android:background="@color/text"
+                        android:textColorHint="@color/black"
+                        android:textColor="@color/black"
                         android:inputType="textPassword"/>
             </LinearLayout>
             <LinearLayout
                     android:layout_width="340dp"
                     android:layout_height="47dp"
                     android:layout_marginTop="10dp"
-                    android:background="@drawable/create_user_radius"
                     android:layout_marginLeft="10dp">
                 <ImageView
-                        android:layout_width="40dp"
-                        android:layout_height="match_parent" />
+                        android:layout_marginTop="5dp"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:background="@drawable/password3" />
                 <EditText
+                        android:id="@+id/enterPasswordAgain"
                         android:layout_width="280dp"
                         android:layout_height="match_parent"
                         android:textSize="14dp"
                         android:hint="请再一次输入密码"
-                        android:textColorHint="@color/font"
-                        android:textColor="#7D848A"
-                        android:background="@color/text"
+                        android:textColorHint="@color/black"
+                        android:textColor="@color/black"
                         android:inputType="textPassword"/>
             </LinearLayout>
         </LinearLayout>
@@ -122,6 +134,7 @@
                 android:layout_width="match_parent" 
                 android:layout_height="50dp">
             <Button
+                    android:id="@+id/createUserConfirm"
                     android:layout_width="340dp"
                     android:layout_height="50dp"
                     android:background="@drawable/button_frame_shape"

@@ -1,3 +1,4 @@
 <resources>
 	<string name="app_name">手持式荧光免疫分析仪</string>
+	<string name="title_activity_frm_main">HK-300T\n干式荧光毒品分析仪</string>
 </resources>

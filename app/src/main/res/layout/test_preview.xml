@@ -7,16 +7,24 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical"
-            android:background="@color/background">
+            android:background="@color/white">
         <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="60dp"
+                android:layout_height="40dp"
                 android:background="@color/top">
+            <Button
+                    android:id="@+id/test_preview_return_button"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginTop="-5dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/return_button"/>
             <TextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:text="测试预览"
-                    android:textColor="#D5D5D6"
+                    android:text="选择项目"
+                    android:textColor="#f5f5f5"
+                    android:layout_marginLeft="-30dp"
                     android:textSize="24dp"
                     android:gravity="center"/>
         </LinearLayout>
@@ -25,12 +33,26 @@
                 android:layout_height="520dp"
                 android:orientation="vertical">
             <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="200dp">
+                    android:layout_width="320dp"
+                    android:layout_height="160dp"
+                    android:background="#dadada"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:orientation="vertical">
                 <ImageView
+                        android:layout_width="140dp"
+                        android:layout_height="120dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="90dp"
+                        android:background="@drawable/card_insertion"/>
+                <TextView
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:background="@color/red"/>
+                        android:layout_height="20dp"
+                        android:textSize="14dp"
+                        android:textColor="#888888"
+                        android:layout_marginTop="5dp"
+                        android:text="请读取项目卡或选择相应项目"
+                        android:gravity="center" />
             </LinearLayout>
             <LinearLayout
                     android:layout_width="340dp"
@@ -47,51 +69,68 @@
             </LinearLayout>
             <LinearLayout
                     android:layout_width="340dp"
-                    android:layout_height="47dp"
+                    android:layout_height="40dp"
                     android:layout_marginTop="10dp"
                     android:layout_marginLeft="10dp"
-                    android:background="@drawable/create_user_radius"
                     android:orientation="horizontal">
                 <ImageView
                         android:layout_width="30dp"
-                        android:layout_height="match_parent" />
+                        android:layout_height="30dp"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/hair"/>
                 <Spinner
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:entries="@array/sampleType"
-                        android:popupBackground="#353434"
-                        android:background="#353434" />
+                        android:popupBackground="#ffffff"
+                        android:background="#ffffff" />
             </LinearLayout>
             <LinearLayout
                     android:layout_width="340dp"
-                    android:layout_height="47dp"
+                    android:layout_height="40dp"
                     android:layout_marginTop="10dp"
                     android:layout_marginLeft="10dp"
-                    android:background="@drawable/create_user_radius"
                     android:orientation="horizontal">
                 <ImageView
                         android:layout_width="30dp"
-                        android:layout_height="match_parent" />
-                <EditText
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:background="#343434"
-                        android:textColor="#D5D5D6"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/calendar"/>
+                <TextView
+                        android:id="@+id/date"
+                        android:layout_marginTop="10dp"
                         android:layout_marginLeft="10dp"
-                        android:text="012"
-                        android:textSize="16dp"/>
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textSize="16dp"
+                        android:text="2020年06月01日" />
+            </LinearLayout>
+            <LinearLayout
+                    android:layout_width="340dp"
+                    android:layout_height="250dp"
+                    android:layout_marginLeft="10dp"
+                    android:orientation="vertical">
             </LinearLayout>
         </LinearLayout>
         <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="50dp">
             <Button
-                    android:layout_width="340dp"
+                    android:layout_width="165dp"
                     android:layout_height="50dp"
                     android:background="@drawable/button_frame_shape"
                     android:layout_marginLeft="10dp"
+                    android:text="读项目卡"
+                    android:textColor="#ffffff"
+                    android:textSize="20dp" />
+            <Button
+                    android:layout_width="165dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/button_black"
+                    android:layout_marginLeft="10dp"
                     android:text="测试"
-                    android:textColor="#C5C5C8"
+                    android:textColor="#ffffff"
                     android:textSize="20dp" />
         </LinearLayout>
     </LinearLayout>

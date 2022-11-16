@@ -4,7 +4,7 @@
 		  package="com.example.drugdetection">
 
     <uses-sdk
-			android:minSdkVersion="10"
+			android:minSdkVersion="14"
 			android:targetSdkVersion="22"/>
 
     <supports-screens
@@ -72,6 +72,96 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
+        <!--注册|创建用户-->
+        <activity
+                android:name=".User.CreateUser"
+                android:configChanges="keyboard|keyboardHidden|orientation|screenSize|locale|screenLayout|mcc|mnc"
+                android:screenOrientation="portrait"
+                android:windowSoftInputMode="adjustPan" />
+        <!--编辑用户-->
+        <activity
+                android:name=".User.EditUser"
+                android:configChanges="keyboard|keyboardHidden|orientation|screenSize|locale|screenLayout|mcc|mnc"
+                android:screenOrientation="portrait"
+                android:windowSoftInputMode="adjustPan" />
+        <!--登录-->
+        <activity
+                android:name=".User.Login"
+                android:configChanges="keyboard|keyboardHidden|orientation|screenSize|locale|screenLayout|mcc|mnc"
+                android:screenOrientation="portrait"
+                android:windowSoftInputMode="adjustPan" />
+        <!--用户管理-->
+        <activity
+                android:name=".User.UserManagement"
+                android:configChanges="keyboard|keyboardHidden|orientation|screenSize|locale|screenLayout|mcc|mnc"
+                android:screenOrientation="portrait"
+                android:windowSoftInputMode="adjustPan" />
+        <!--关于本机-->
+        <activity
+                android:name=".MainProcess.AboutMachine"
+                android:configChanges="keyboard|keyboardHidden|orientation|screenSize|locale|screenLayout|mcc|mnc"
+                android:screenOrientation="portrait"
+                android:windowSoftInputMode="adjustPan" />
+        <!--关于本机-->
+        <activity
+                android:name=".MainProcess.EditReferenceScope"
+                android:configChanges="keyboard|keyboardHidden|orientation|screenSize|locale|screenLayout|mcc|mnc"
+                android:screenOrientation="portrait"
+                android:windowSoftInputMode="adjustPan" />
+        <!--通用设置-->
+        <activity
+                android:name=".MainProcess.GeneralSettings"
+                android:configChanges="keyboard|keyboardHidden|orientation|screenSize|locale|screenLayout|mcc|mnc"
+                android:screenOrientation="portrait"
+                android:windowSoftInputMode="adjustPan" />
+        <!--历史记录-->
+        <activity
+                android:name=".MainProcess.HistoricalRecords"
+                android:configChanges="keyboard|keyboardHidden|orientation|screenSize|locale|screenLayout|mcc|mnc"
+                android:screenOrientation="portrait"
+                android:windowSoftInputMode="adjustPan" />
+        <!--主菜单-->
+        <activity
+                android:name=".MainProcess.Menu"
+                android:configChanges="keyboard|keyboardHidden|orientation|screenSize|locale|screenLayout|mcc|mnc"
+                android:screenOrientation="portrait"
+                android:windowSoftInputMode="adjustPan" />
+        <!--项目管理-->
+        <activity
+                android:name=".MainProcess.ProjectManagement"
+                android:configChanges="keyboard|keyboardHidden|orientation|screenSize|locale|screenLayout|mcc|mnc"
+                android:screenOrientation="portrait"
+                android:windowSoftInputMode="adjustPan" />
+        <!--参考范围管理-->
+        <activity
+                android:name=".MainProcess.ReferenceRangeManagement"
+                android:configChanges="keyboard|keyboardHidden|orientation|screenSize|locale|screenLayout|mcc|mnc"
+                android:screenOrientation="portrait"
+                android:windowSoftInputMode="adjustPan" />
+        <!--Lis服务器设置-->
+        <activity
+                android:name=".MainProcess.ServerSettings"
+                android:configChanges="keyboard|keyboardHidden|orientation|screenSize|locale|screenLayout|mcc|mnc"
+                android:screenOrientation="portrait"
+                android:windowSoftInputMode="adjustPan" />
+        <!--侧边栏-->
+        <activity
+                android:name=".MainProcess.Sidebar"
+                android:configChanges="keyboard|keyboardHidden|orientation|screenSize|locale|screenLayout|mcc|mnc"
+                android:screenOrientation="portrait"
+                android:windowSoftInputMode="adjustPan" />
+        <!--测试-->
+        <activity
+                android:name=".MainProcess.Test"
+                android:configChanges="keyboard|keyboardHidden|orientation|screenSize|locale|screenLayout|mcc|mnc"
+                android:screenOrientation="portrait"
+                android:windowSoftInputMode="adjustPan" />
+        <!--测试结果-->
+        <activity
+                android:name=".MainProcess.TestResults"
+                android:configChanges="keyboard|keyboardHidden|orientation|screenSize|locale|screenLayout|mcc|mnc"
+                android:screenOrientation="portrait"
+                android:windowSoftInputMode="adjustPan" />
 
         <!--开机自启-->
         <receiver android:name=".Mian.BootBroadcastReceiver">

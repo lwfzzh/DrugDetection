@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="result_type">
+        <item>仅定量显示</item>
+        <item>仅定性显示</item>
+        <item>全部显示</item>
+    </string-array>
+</resources>

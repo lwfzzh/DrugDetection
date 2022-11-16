@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                                   xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+                                                   android:layout_height="match_parent">
+
+	<LinearLayout android:layout_width="match_parent" android:layout_height="match_parent">
+		<ImageView android:layout_width="match_parent" android:layout_height="match_parent"/>
+	</LinearLayout>
+	<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:background="@drawable/entering_the_system"
+			android:orientation="vertical">
+		<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="240dp"
+				android:orientation="vertical">
+			<ImageView
+					android:layout_width="138dp"
+					android:layout_height="26dp"
+					android:layout_marginLeft="20dp"
+					android:layout_marginTop="30dp"
+					android:background="@drawable/logo"/>
+			<TextView
+					android:layout_width="match_parent"
+					android:layout_height="178dp"
+					android:textSize="28dp"
+					android:textColor="@color/white"
+					android:text="@string/title_activity_frm_main"
+					android:gravity="center"/>
+		</LinearLayout>
+		<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="40dp"
+				android:layout_marginTop="350dp">
+			<TextView
+					android:layout_width="match_parent"
+					android:layout_height="match_parent"
+					android:textColor="@color/white"
+					android:text="技术支持:海卫特(广州)医疗科技有限公司"
+					android:textSize="12dp"
+					android:gravity="center"/>
+		</LinearLayout>
+
+	</LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="record_retention_days">
+        <item>30天</item>
+        <item>60天</item>
+        <item>90天</item>
+        <item>180天</item>
+        <item>永久</item>
+    </string-array>
+</resources>
